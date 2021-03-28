@@ -5,6 +5,7 @@ using namespace std;
 
 string stringAccessLevel(AccessLevel accessLevel) {
     switch (accessLevel) {
+        case BLUE:     return "BLUE";
         case GREEN:     return "GREEN";
         case YELLOW:    return "YELLOW";
         case RED:       return "RED";

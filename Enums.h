@@ -7,9 +7,10 @@ using namespace std;
 
 enum AccessLevel {
     NO_LEVEL = 0,
-    GREEN = 1,
-    YELLOW = 2,
-    RED = 3
+    BLUE = 1,
+    GREEN = 2,
+    YELLOW = 3,
+    RED = 4
 };
 
 string stringAccessLevel(AccessLevel accessLevel);

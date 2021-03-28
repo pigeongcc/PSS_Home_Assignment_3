@@ -118,12 +118,20 @@ int main() {
     guest2.access(cab1);                    // Vladimir would like to enter 319, though he hasn't a permission
     admin1.giveAccess(guest2, cab1);     // One call to admin resolves the problem
     guest2.access(cab1);                    // Mr. Putin can now print some papers at 319
+    cout << endl;
 
-    Cabinet cab2 = Cabinet("467", 4);       // creating cabinets with floor parameter
-    Cabinet cab3 = Cabinet("111", 1);
+    ConferenceRoom conf3 = ConferenceRoom("467", 4);       // creating cabinets with floor parameter
+    ConferenceRoom conf4 = ConferenceRoom("111", 1);
 
-    cab2.initiateEmergency();                  // Emergency is initiated in 319
-    guest1.access(lec1);                    // Guest Marina escaped through the lecture room
+    guest1.access(lec1);                    // Guest Marina accesses the lecture room
+    guest4.access(conf3);                    // Guest Edward tries to access the Conference Room on the 4th floor
+    guest4.access(conf4);                    // but accesses only the one on the 1st floor
+    cout << endl;
+
+    conf3.initiateEmergency();                  // Emergency is initiated in 467
+    guest1.access(conf3);                    // Guest Marina escaped through the Conference Room on the 4th floor
+    cab1.terminateEmergency();                  // Emergency is terminated
+    cout << endl;
 
     return 0;
 }

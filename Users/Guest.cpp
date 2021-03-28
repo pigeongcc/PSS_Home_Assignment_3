@@ -3,7 +3,7 @@
 /* Constructor */
 Guest::Guest(string name, string whence) : User(name, "", 0)  {
     this->whence = whence;
-    accessLevel = NO_LEVEL;
+    accessLevel = BLUE;
 }
 
 /* Getters */

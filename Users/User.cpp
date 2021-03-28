@@ -48,7 +48,7 @@ void User::setSalary(int salary) {
 void User::access(Room& room) const {
     string roomName = room.getType() + " #" + room.getNumber();
 
-    // if User's access level is higher or equal OR User has a special access
+    // if User's access level is higher or equal OR User has a special access (emergency, guest, granted list, etc.)
     if (getAccessLevel() >= room.getAccessLevel() || room.checkAccess(this))
         cout << this->name << " [" << stringAccessLevel(getAccessLevel()) << "] successfully accessed "
         << roomName << " [" << stringAccessLevel(room.getAccessLevel()) << "]." << endl;

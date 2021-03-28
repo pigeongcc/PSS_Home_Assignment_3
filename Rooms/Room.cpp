@@ -45,10 +45,18 @@ AccessLevel Room::getAccessLevel() const {
 /* Returns if User can access the Room */
 bool Room::checkAccess(const User* checkUser) const {
     if (getIfEmergency()) return true;  // in case of emergency situation, all the rooms are accessible for everybody
+
+    if(checkUser->getAccessLevel() == BLUE) { // in case of user has BLUE access level
+        string roomType = this->getType();
+        if(roomType == "Lecture Room") return true;     // access to all Lecture Rooms
+        else if(roomType == "Conference Room" && this->floor == 1) return true; // access to Conference Rooms on the 1st floor
+    }
+
     if(find(grantedUsers.begin(), grantedUsers.end(), checkUser) != grantedUsers.end()) // if found
         return true;
-    else
-        return false;
+
+    // in case no special access is given, the access is prohibited
+    return false;
 }
 
 /*
