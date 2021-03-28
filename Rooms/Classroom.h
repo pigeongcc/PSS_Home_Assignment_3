@@ -3,7 +3,7 @@
 
 #include "Room.h"
 
-class Classroom : Room {
+class Classroom : public Room {
 public:
     Classroom(string number);
     string getType() const override;

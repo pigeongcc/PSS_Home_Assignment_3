@@ -62,6 +62,11 @@ CMakeFiles/HW2.dir/Users/Employee.cpp.obj
  C:/Users/gulya/Desktop/PSS/HW2/Users/Employee.cpp
  C:/Users/gulya/Desktop/PSS/HW2/Users/Employee.h
  C:/Users/gulya/Desktop/PSS/HW2/Users/User.h
+CMakeFiles/HW2.dir/Users/Guest.cpp.obj
+ C:/Users/gulya/Desktop/PSS/HW2/Enums.h
+ C:/Users/gulya/Desktop/PSS/HW2/Users/Guest.cpp
+ C:/Users/gulya/Desktop/PSS/HW2/Users/Guest.h
+ C:/Users/gulya/Desktop/PSS/HW2/Users/User.h
 CMakeFiles/HW2.dir/Users/Professor.cpp.obj
  C:/Users/gulya/Desktop/PSS/HW2/Enums.h
  C:/Users/gulya/Desktop/PSS/HW2/Users/Professor.cpp
@@ -89,6 +94,7 @@ CMakeFiles/HW2.dir/main.cpp.obj
  C:/Users/gulya/Desktop/PSS/HW2/Users/Admin.h
  C:/Users/gulya/Desktop/PSS/HW2/Users/Director.h
  C:/Users/gulya/Desktop/PSS/HW2/Users/Employee.h
+ C:/Users/gulya/Desktop/PSS/HW2/Users/Guest.h
  C:/Users/gulya/Desktop/PSS/HW2/Users/Professor.h
  C:/Users/gulya/Desktop/PSS/HW2/Users/Student.h
  C:/Users/gulya/Desktop/PSS/HW2/Users/User.h

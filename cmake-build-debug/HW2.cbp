@@ -140,6 +140,12 @@
 		<Unit filename="C:/Users/gulya/Desktop/PSS/HW2/Users/Employee.h">
 			<Option target="HW2"/>
 		</Unit>
+		<Unit filename="C:/Users/gulya/Desktop/PSS/HW2/Users/Guest.cpp">
+			<Option target="HW2"/>
+		</Unit>
+		<Unit filename="C:/Users/gulya/Desktop/PSS/HW2/Users/Guest.h">
+			<Option target="HW2"/>
+		</Unit>
 		<Unit filename="C:/Users/gulya/Desktop/PSS/HW2/Users/Professor.cpp">
 			<Option target="HW2"/>
 		</Unit>

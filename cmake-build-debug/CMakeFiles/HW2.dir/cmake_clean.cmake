@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/HW2.dir/Users/Admin.cpp.obj"
   "CMakeFiles/HW2.dir/Users/Director.cpp.obj"
   "CMakeFiles/HW2.dir/Users/Employee.cpp.obj"
+  "CMakeFiles/HW2.dir/Users/Guest.cpp.obj"
   "CMakeFiles/HW2.dir/Users/Professor.cpp.obj"
   "CMakeFiles/HW2.dir/Users/Student.cpp.obj"
   "CMakeFiles/HW2.dir/Users/User.cpp.obj"

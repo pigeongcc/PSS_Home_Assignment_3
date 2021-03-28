@@ -412,6 +412,33 @@ Users/Employee.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW2.dir\build.make CMakeFiles/HW2.dir/Users/Employee.cpp.s
 .PHONY : Users/Employee.cpp.s
 
+Users/Guest.obj: Users/Guest.cpp.obj
+
+.PHONY : Users/Guest.obj
+
+# target to build an object file
+Users/Guest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW2.dir\build.make CMakeFiles/HW2.dir/Users/Guest.cpp.obj
+.PHONY : Users/Guest.cpp.obj
+
+Users/Guest.i: Users/Guest.cpp.i
+
+.PHONY : Users/Guest.i
+
+# target to preprocess a source file
+Users/Guest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW2.dir\build.make CMakeFiles/HW2.dir/Users/Guest.cpp.i
+.PHONY : Users/Guest.cpp.i
+
+Users/Guest.s: Users/Guest.cpp.s
+
+.PHONY : Users/Guest.s
+
+# target to generate assembly for a file
+Users/Guest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW2.dir\build.make CMakeFiles/HW2.dir/Users/Guest.cpp.s
+.PHONY : Users/Guest.cpp.s
+
 Users/Professor.obj: Users/Professor.cpp.obj
 
 .PHONY : Users/Professor.obj
@@ -559,6 +586,9 @@ help:
 	@echo ... Users/Employee.obj
 	@echo ... Users/Employee.i
 	@echo ... Users/Employee.s
+	@echo ... Users/Guest.obj
+	@echo ... Users/Guest.i
+	@echo ... Users/Guest.s
 	@echo ... Users/Professor.obj
 	@echo ... Users/Professor.i
 	@echo ... Users/Professor.s

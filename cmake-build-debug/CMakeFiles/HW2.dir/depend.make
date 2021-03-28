@@ -62,6 +62,11 @@ CMakeFiles/HW2.dir/Users/Employee.cpp.obj: ../Users/Employee.cpp
 CMakeFiles/HW2.dir/Users/Employee.cpp.obj: ../Users/Employee.h
 CMakeFiles/HW2.dir/Users/Employee.cpp.obj: ../Users/User.h
 
+CMakeFiles/HW2.dir/Users/Guest.cpp.obj: ../Enums.h
+CMakeFiles/HW2.dir/Users/Guest.cpp.obj: ../Users/Guest.cpp
+CMakeFiles/HW2.dir/Users/Guest.cpp.obj: ../Users/Guest.h
+CMakeFiles/HW2.dir/Users/Guest.cpp.obj: ../Users/User.h
+
 CMakeFiles/HW2.dir/Users/Professor.cpp.obj: ../Enums.h
 CMakeFiles/HW2.dir/Users/Professor.cpp.obj: ../Users/Professor.cpp
 CMakeFiles/HW2.dir/Users/Professor.cpp.obj: ../Users/Professor.h
@@ -88,6 +93,7 @@ CMakeFiles/HW2.dir/main.cpp.obj: ../Rooms/Room.h
 CMakeFiles/HW2.dir/main.cpp.obj: ../Users/Admin.h
 CMakeFiles/HW2.dir/main.cpp.obj: ../Users/Director.h
 CMakeFiles/HW2.dir/main.cpp.obj: ../Users/Employee.h
+CMakeFiles/HW2.dir/main.cpp.obj: ../Users/Guest.h
 CMakeFiles/HW2.dir/main.cpp.obj: ../Users/Professor.h
 CMakeFiles/HW2.dir/main.cpp.obj: ../Users/Student.h
 CMakeFiles/HW2.dir/main.cpp.obj: ../Users/User.h

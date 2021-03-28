@@ -10,11 +10,14 @@
 #include "Users/Employee.h"
 #include "Users/Professor.h"
 #include "Users/Admin.h"
+#include "Users/Guest.h"
 
 using namespace std;
 
 int main() {
 
+    // -------------------------- TEST CASES FOR THE 2nd ASSIGNMENT --------------------------
+    cout << "--------------------- 2nd ASSIGNMENT TEST--------------------- " << endl;
     // 1 director
     Director director = Director("Kirill Seminikhin", "seme4ko", 1000000);
     // 2 admins
@@ -93,6 +96,33 @@ int main() {
     stud14.access(lec1);            // Student Artem decides to escape through the Lecture Room
     cab1.terminateEmergency();         // Emergency is terminated
     stud3.access(lec1);      // Student Eduard didn't escape through the Lecture Room, yet there's no more neediness
+
+
+    // -------------------------- TEST CASES FOR THE 3rd ASSIGNMENT --------------------------
+    cout << endl << "--------------------- 3rd ASSIGNMENT TEST--------------------- " << endl;
+    // 4 guests
+    Guest guest1 = Guest("Marina Smirnova", "Ufa");
+    Guest guest2 = Guest("Vladimir Putin", "Kremlin");
+    Guest guest3 = Guest("Nurdaulet Valette", "Innopolis Lyceum");
+    Guest guest4 = Guest("Edward Nafikov", "Mars");
+
+    cout << endl;
+    cout << guest1.toString() << endl;
+    cout << guest2.toString() << endl;
+    cout << endl;
+
+    guest3.access(directorCab1);     // Guest Nurdaulet tries to access everything he sees
+    guest3.access(lec2);
+    guest3.access(class2);
+    guest3.access(conf1);
+    guest2.access(cab1);                    // Vladimir would like to enter 319, though he hasn't a permission
+    admin1.giveAccess(guest2, cab1);     // One call to admin resolves the problem
+    guest2.access(cab1);                    // Mr. Putin can now print some papers at 319
+
+
+
+    cab1.initiateEmergency();                  // Emergency is initiated in 319
+    guest1.access(lec1);                    // Guest Marina escaped through the lecture room
 
     return 0;
 }
