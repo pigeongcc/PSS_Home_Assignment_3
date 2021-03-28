@@ -6,6 +6,7 @@
 class Cabinet : public Room {
 public:
     Cabinet(string number);
+    Cabinet(string number, int floor);
     string getType() const override;
 };
 

@@ -6,14 +6,23 @@ using namespace std;
 
 bool Room::isEmergency = false;
 
-/* Constructor */
+/* Constructors */
 Room::Room(string number) {
     this->number = number;
+    this->floor = 0;
+}
+Room::Room(string number, int floor) {
+    this->number = number;
+    this->floor = floor;
 }
 
 /* Getters */
 string Room::getNumber() const{
     return number;
+}
+
+int Room::getFloor() const{
+    return floor;
 }
 
 vector<User*> Room::getListOfGrantedUsers() const {
@@ -53,6 +62,10 @@ bool Room::getIfEmergency() {
 /* Setter */
 void Room::setNumber(string newNumber) {
     this->number = newNumber;
+}
+
+void Room::setFloor(int newFloor) {
+    this->floor = newFloor;
 }
 
 /* Adds User to the list of granted users for this Room */

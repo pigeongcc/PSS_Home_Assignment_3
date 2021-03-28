@@ -119,9 +119,10 @@ int main() {
     admin1.giveAccess(guest2, cab1);     // One call to admin resolves the problem
     guest2.access(cab1);                    // Mr. Putin can now print some papers at 319
 
+    Cabinet cab2 = Cabinet("467", 4);       // creating cabinets with floor parameter
+    Cabinet cab3 = Cabinet("111", 1);
 
-
-    cab1.initiateEmergency();                  // Emergency is initiated in 319
+    cab2.initiateEmergency();                  // Emergency is initiated in 319
     guest1.access(lec1);                    // Guest Marina escaped through the lecture room
 
     return 0;

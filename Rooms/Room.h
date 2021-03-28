@@ -13,12 +13,15 @@ using namespace std;
 class Room {
 protected:
     string number;
+    int floor;
     vector<User*> grantedUsers;
     static bool isEmergency;
     AccessLevel accessLevel;
     Room(string number);
+    Room(string number, int floor);
 public:
     string getNumber() const;
+    int getFloor() const;
     vector<User*> getListOfGrantedUsers() const;
     vector<string> getNamesOfGrantedUsers() const;
     AccessLevel getAccessLevel() const;
@@ -27,6 +30,7 @@ public:
     virtual string getType() const = 0;
 
     void setNumber(string number);
+    void setFloor(int floor);
     void printAccessLevel() const;
     void addGrantedUser(User& user);
     void removeGrantedUser(User& user);
