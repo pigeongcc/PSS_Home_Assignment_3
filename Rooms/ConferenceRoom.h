@@ -6,6 +6,7 @@
 class ConferenceRoom : public Room {
 public:
     ConferenceRoom(string number);
+    ConferenceRoom(string number, int floor);
     string getType() const override;
 };
 

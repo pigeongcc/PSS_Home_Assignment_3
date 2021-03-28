@@ -8,6 +8,11 @@ DirectorCabinet::DirectorCabinet(string number, Director& host) : Room(number) {
     accessLevel = RED;
 }
 
+DirectorCabinet::DirectorCabinet(string number, Director& host, int floor) : Room(number, floor) {
+    this->host = &host;
+    accessLevel = RED;
+}
+
 string DirectorCabinet::getType() const {
     return "Director Cabinet";
 }

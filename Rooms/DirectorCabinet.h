@@ -8,6 +8,7 @@ private:
     Director* host;
 public:
     DirectorCabinet(string number, Director& host);
+    DirectorCabinet(string number, Director& host, int floor);
 
     const Director& getHost() const;
     string getType() const override;

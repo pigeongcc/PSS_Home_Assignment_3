@@ -10,10 +10,6 @@ C:/Users/gulya/Desktop/PSS/HW3/PSS_Home_Assignment_3/Enums.h
 string
 -
 
-C:/Users/gulya/Desktop/PSS/HW3/PSS_Home_Assignment_3/Rooms/Cabinet.cpp
-Cabinet.h
-C:/Users/gulya/Desktop/PSS/HW3/PSS_Home_Assignment_3/Rooms/Cabinet.h
-
 C:/Users/gulya/Desktop/PSS/HW3/PSS_Home_Assignment_3/Rooms/Cabinet.h
 Room.h
 C:/Users/gulya/Desktop/PSS/HW3/PSS_Home_Assignment_3/Rooms/Room.h
@@ -52,14 +48,6 @@ C:/Users/gulya/Desktop/PSS/HW3/PSS_Home_Assignment_3/Rooms/LectureRoom.h
 Room.h
 C:/Users/gulya/Desktop/PSS/HW3/PSS_Home_Assignment_3/Rooms/Room.h
 
-C:/Users/gulya/Desktop/PSS/HW3/PSS_Home_Assignment_3/Rooms/Room.cpp
-Room.h
-C:/Users/gulya/Desktop/PSS/HW3/PSS_Home_Assignment_3/Rooms/Room.h
-algorithm
--
-iostream
--
-
 C:/Users/gulya/Desktop/PSS/HW3/PSS_Home_Assignment_3/Rooms/Room.h
 string
 -
@@ -69,10 +57,6 @@ vector
 C:/Users/gulya/Desktop/PSS/HW3/PSS_Home_Assignment_3/Enums.h
 ../Users/Director.h
 C:/Users/gulya/Desktop/PSS/HW3/PSS_Home_Assignment_3/Users/Director.h
-
-C:/Users/gulya/Desktop/PSS/HW3/PSS_Home_Assignment_3/Users/Admin.cpp
-Admin.h
-C:/Users/gulya/Desktop/PSS/HW3/PSS_Home_Assignment_3/Users/Admin.h
 
 C:/Users/gulya/Desktop/PSS/HW3/PSS_Home_Assignment_3/Users/Admin.h
 ../Enums.h
@@ -111,14 +95,6 @@ C:/Users/gulya/Desktop/PSS/HW3/PSS_Home_Assignment_3/Users/Student.h
 C:/Users/gulya/Desktop/PSS/HW3/PSS_Home_Assignment_3/Enums.h
 User.h
 C:/Users/gulya/Desktop/PSS/HW3/PSS_Home_Assignment_3/Users/User.h
-
-C:/Users/gulya/Desktop/PSS/HW3/PSS_Home_Assignment_3/Users/User.cpp
-User.h
-C:/Users/gulya/Desktop/PSS/HW3/PSS_Home_Assignment_3/Users/User.h
-../Rooms/Room.h
-C:/Users/gulya/Desktop/PSS/HW3/PSS_Home_Assignment_3/Rooms/Room.h
-iostream
--
 
 C:/Users/gulya/Desktop/PSS/HW3/PSS_Home_Assignment_3/Users/User.h
 ../Enums.h
